@@ -1,4 +1,5 @@
-const http = require('http');
+const API_ENDPOINT_START = 'https://google-catbook.herokuapp.com';
+const http = require('https');
 const express = require('express');
 const views = require('./routes/views');
 
